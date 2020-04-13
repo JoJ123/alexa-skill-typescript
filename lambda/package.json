@@ -1,0 +1,26 @@
+{
+  "name": "hello-world",
+  "version": "1.1.0",
+  "description": "alexa utility for quickly building skills",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "bundle": "yarn build && ./bundle.sh",
+    "watch": "tsc --watch"
+  },
+  "author": "Amazon Alexa",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "2.6.0",
+    "ask-sdk-model": "1.18.0",
+    "aws-sdk": "2.326.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.27.0",
+    "@typescript-eslint/parser": "2.27.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2",
+    "typescript": "3.8.3"
+  }
+}
