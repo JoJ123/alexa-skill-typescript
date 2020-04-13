@@ -4,7 +4,7 @@
   "description": "alexa utility for quickly building skills",
   "scripts": {
     "lint": "eslint ./lambda/src/**/*.ts --fix",
-    "build": "cd lambda && yarn build",
+    "bundle": "cd lambda && yarn bundle",
     "deploy": "ask deploy"
   },
   "author": "Amazon Alexa",
